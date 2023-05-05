@@ -1,0 +1,11 @@
+nodemon -> used to refresh and load the changes w/o running it manually.
+
+
+npm init -y
+npm i express mongoose dotenv nodemon
+npm i crypto-js
+
+MONGODB ATLAS
+DB ACCESS -> create user
+NET ACCESS -> provide IP
+Database -> connect to application -> mongoose.connect('url')

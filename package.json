@@ -1,0 +1,21 @@
+{
+  "name": "E-COM",
+  "version": "1.0.0",
+  "description": "{\\rtf1\\ansi\\deff0\\nouicompat{\\fonttbl{\\f0\\fnil\\fcharset0 Calibri;}}\r {\\*\\generator Riched20 10.0.19041}\\viewkind4\\uc1 \r \\pard\\sa200\\sl276\\slmult1\\f0\\fs22\\lang9 LAMA-DEV ECOM MERN APP\\par\r }\r \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.1",
+    "nodemon": "^2.0.20"
+  }
+}
