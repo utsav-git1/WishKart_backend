@@ -7,7 +7,7 @@ const OrderSchema = mongoose.Schema(
     amount: { type: Number, required: true },
     address: { type: Object, defalut: "pending" },
   },
-  { timestamp: true }
+  { timestamps: true }
 );
 
 module.exports = mongoose.model("Order", OrderSchema);
