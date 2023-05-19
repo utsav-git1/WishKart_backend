@@ -8,6 +8,8 @@ const orderRouter = require("./routes/order");
 const cartRouter = require("./routes/cart");
 const categoryRouter = require("./routes/category");
 const wishlistRouter = require("./routes/wishlist");
+const paymentRouter = require("./routes/stripe");
+
 
 var cors = require("cors");
 app.use(cors());
@@ -24,6 +26,8 @@ app.use("/cart", cartRouter);
 app.use("/order", orderRouter);
 app.use("/category", categoryRouter);
 app.use("/wishlist", wishlistRouter);
+app.use("/payment", paymentRouter);
+
 
 mongoose
   .connect(process.env.DATABASE_URL)
