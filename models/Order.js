@@ -6,6 +6,7 @@ const OrderSchema = mongoose.Schema(
     products: [{}],
     amount: { type: Number, required: true },
     address: { type: Object, defalut: "pending" },
+    paymentId: { type: String },
   },
   { timestamps: true }
 );
